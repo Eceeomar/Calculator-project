@@ -1,23 +1,28 @@
-body{
-    margin: 50px auto;
+body {
+    margin: 100px auto; /* Adjust the margin-top value */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-#calculator{
+#calculator {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #606168;
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
+    height: 300px;
+    margin-top: 10px; /* Add margin to the top */
 }
+
 #display{
     width: 80%;
+    margin-top: 2px;
     padding: 50px;
     font-size:5rem;
     text-align: right;
+    border-radius: 15px;
     border: 2px;
     background-color: hs1 (0, 0%, 20%);
 }
